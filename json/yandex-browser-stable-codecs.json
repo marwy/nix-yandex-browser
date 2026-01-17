@@ -1,1 +1,4 @@
-{"version": "130.0.6723.1055", "url": "https://api.snapcraft.io/api/v1/snaps/download/XXzVIXswXKHqlUATPqGCj2w2l7BxosS8_63.snap", "path": "chromium-ffmpeg-116569/chromium-ffmpeg/libffmpeg.so", "sha256": "1069vj860xmpkq5gvzfp7vasnlx81sjqh8nr2klp2xbsjb339pyg"}
+{"version": "122056-121586-120726-120170-etc",
+  "url": "https://api.snapcraft.io/api/v1/snaps/download/XXzVIXswXKHqlUATPqGCj2w2l7BxosS8_91.snap",
+  "path": "chromium-ffmpeg-91/chromium-ffmpeg/libffmpeg.so", 
+  "sha256": "7fd82720347f09b467955ebe76811d94679943dcef3c654b05fa63b43c3dc16a31aa022e896b5537afb94f3fb7cee61c"}
