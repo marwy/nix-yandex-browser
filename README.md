@@ -17,20 +17,20 @@ Try the IPFS backed [web3](https://github.com/teu5us/nix-yandex-browser/tree/web
 
    ``` sh
    # Stable version
-   nix profile install github:Teu5us/nix-yandex-browser#yandex-browser-stable
+   nix profile install github:marwy/nix-yandex-browser#yandex-browser-stable
 
    # Beta version
-   nix profile install github:Teu5us/nix-yandex-browser#yandex-browser-beta
+   nix profile install github:marwy/nix-yandex-browser#yandex-browser-beta
    ```
 
 2. Temporary shell using `nix shell`:
 
    ``` sh
    # Stable version
-   nix shell github:Teu5us/nix-yandex-browser#yandex-browser-stable
+   nix shell github:marwy/nix-yandex-browser#yandex-browser-stable
 
    # Beta version
-   nix shell github:Teu5us/nix-yandex-browser#yandex-browser-beta
+   nix shell github:marwy/nix-yandex-browser#yandex-browser-beta
    ```
 
 ### Configuration
@@ -40,7 +40,7 @@ Try the IPFS backed [web3](https://github.com/teu5us/nix-yandex-browser/tree/web
    ``` nix
    {
      inputs.nixpkgs.url = "...";
-     inputs.yandex-browser.url = "github:Teu5us/nix-yandex-browser";
+     inputs.yandex-browser.url = "github:marwy/nix-yandex-browser";
      inputs.yandex-browser.inputs.nixpkgs.follows = "nixpkgs";
    }
    ```
